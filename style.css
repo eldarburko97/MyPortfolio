@@ -59,6 +59,7 @@ html{
   section.section nav.navbar div#navbarMenu {
     padding-right: 50px;
     padding-top: 15px;
+    z-index: 99;
   }
 
   #navbarMenu .navbar-nav li a{
@@ -134,7 +135,7 @@ html{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content:center;
   /* background-color: chocolate; */
 }
 
@@ -172,11 +173,15 @@ section.aboutme div.container div.row div.col-sm-8{
 
 /* My skills section styling */
 .skills{
-  height: 100vh;
+  height: 100%;
 }
 
  .skills h2 {
    margin: 0;
+ }
+
+ .skill-container {
+   height: 100vh;
  }
 
 #container2{
@@ -422,6 +427,7 @@ section.projects {
 
   .skill-container{
     padding-top: 20px;
+    height: 100%;
   }
  
  .skill-image{
